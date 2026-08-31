@@ -1,0 +1,11 @@
+# configs/tasks/hotpotqa.yaml
+name: hotpotqa
+hf_dataset: hotpotqa/hotpot_qa   # canonical namespaced id (bare id no longer resolves)
+hf_config: distractor
+split: validation
+sample_size: 300
+seed: 42
+stratify_by: meta.level
+template: multihop_qa
+max_output_tokens: 64
+scorer: qa_em_f1

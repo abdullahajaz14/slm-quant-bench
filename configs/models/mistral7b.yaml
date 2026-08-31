@@ -1,0 +1,15 @@
+# configs/models/mistral7b.yaml
+name: mistral7b
+hf_repo: mistralai/Mistral-7B-Instruct-v0.3
+params_b: 7.2
+gguf:
+  fp16: models/mistral7b-fp16.gguf
+  q8_0: models/mistral7b-q8_0.gguf
+  q4_k_m: models/mistral7b-q4_k_m.gguf
+n_ctx: 4096
+seed: 42
+gpu_layers:
+  device: -1
+  colab: -1
+  colab_fp16: 28   # 14.5 GB FP16 on a 16 GB T4: partial offload, rest on CPU;
+                   # slower but outputs identical for quality scoring

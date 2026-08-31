@@ -1,0 +1,40 @@
+# configs/runs/efficiency_device.yaml -- the on-device battery sweep
+run_id: efficiency-device
+env: device
+backend: metal
+models: [phi3-mini, gemma2-2b, llama32-3b, mistral7b]
+precisions: [fp16, q8_0, q4_k_m]   # fp16 rows: run via --only, one at a time
+battery: data/battery.jsonl
+repetitions: 3
+cooldown_s: 60
+out_dir: results
+
+# Measure from INTERNAL storage. The pilot compared the same 2.6 GB
+# artefact read from internal and from external USB storage: cold-start
+# load was 70.5 s against 3.1 s, a factor of 23, while prefill and
+# decode rates were identical to within 0.2 per cent. Load time is a
+# reported metric, so each artefact is copied here before measurement
+# and removed afterwards, which also keeps internal free space bounded.
+stage_dir: ~/slmbench-internal/models
+cleanup_staged: true
+
+# Fallback offload levels, tried in order, only when the standard
+# full-offload configuration fails. The pilot found phi3-mini at q8_0
+# fails with llama_decode -3 at full offload on 8 GB yet still loads at
+# reduced offload, generating at roughly 0.05 tokens per second. Both
+# facts matter to a deploying organisation, so the run records the
+# primary failure and a supplementary row showing what reduced offload
+# achieves. Rows carry `offload` and `n_gpu_layers` so the two are never
+# confused in analysis.
+fallback_gpu_layers: [24, 0]
+
+# Time budgets. A configuration that loads but generates far too
+# slowly to be deployable would otherwise stall the sweep for days;
+# the budget stops it once its rate is established and records that
+# outcome, which is itself a finding. Fallback measurements use a
+# short prefix of the battery and a single repetition, since their
+# purpose is to establish an achievable rate rather than a
+# distribution.
+budget_s: 3600
+fallback_prompts: 3
+fallback_budget_s: 600

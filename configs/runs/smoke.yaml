@@ -1,0 +1,9 @@
+# configs/runs/smoke.yaml -- Day 2 definition-of-done run
+run_id: smoke
+env: device          # device | colab
+backend: metal       # metal | cuda
+models: [phi3-mini]
+precisions: [q4_k_m]
+tasks: [cuad, hotpotqa]
+limit: 10            # items per task; the pilot uses 25, full runs remove this
+out_dir: results

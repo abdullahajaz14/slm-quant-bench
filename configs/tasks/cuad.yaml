@@ -1,0 +1,13 @@
+# configs/tasks/cuad.yaml
+name: cuad
+hf_dataset: theatticusproject/cuad-qa
+revision: refs/convert/parquet   # the repo ships a legacy loading script;
+                                 # datasets 5.x needs the parquet export
+split: test
+sample_size: 200
+seed: 42
+stratify_by: meta.category
+template: extractive_qa
+max_output_tokens: 64
+scorer: qa_em_f1
+window_chars: 8000    # answer-centred context window (see adapter docstring)

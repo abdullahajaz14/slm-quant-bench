@@ -1,0 +1,13 @@
+# configs/runs/smoke_ukps.yaml -- fastest end-to-end check.
+# Uses the curated corpus, which loads from data/ukps/items.jsonl, so it
+# exercises adapter, prompt layer, backend, scorers and results store
+# without downloading any benchmark dataset. Useful as the first check
+# after building a model, and as the cheapest reproduction tier.
+run_id: smoke-ukps
+env: device
+backend: metal
+models: [gemma2-2b]
+precisions: [q4_k_m]
+tasks: [ukps_qa, ukps_sum]
+limit: 5
+out_dir: results

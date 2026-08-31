@@ -1,0 +1,11 @@
+# configs/tasks/ukps_sum.yaml
+name: ukps_sum
+hf_dataset: local
+split: none
+sample_size: -1
+seed: 42
+template: document_summarise
+max_output_tokens: 160
+scorer: rouge                # ROUGE-L is primary per Chapter 3
+adapter: ukps
+variant: summary

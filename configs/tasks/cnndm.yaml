@@ -1,0 +1,11 @@
+# configs/tasks/cnndm.yaml
+name: cnndm
+hf_dataset: abisee/cnn_dailymail   # confirm id on HF; record actual in README
+hf_config: "3.0.0"
+split: test
+sample_size: 150
+seed: 42
+template: summarise
+max_output_tokens: 128
+scorer: rouge
+max_context_chars: 14000

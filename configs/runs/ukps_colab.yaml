@@ -1,0 +1,11 @@
+# configs/runs/ukps_colab.yaml -- curated-corpus quality, all 12 configs.
+# Run AFTER data/ukps/items.jsonl is frozen at the pilot; cheap (85
+# items) so it rides along with a quality session per model:
+#   python scripts/run_quality.py --config configs/runs/ukps_colab.yaml --models <key>
+run_id: ukps-colab
+env: colab
+backend: cuda
+models: [phi3-mini, gemma2-2b, llama32-3b, mistral7b]
+precisions: [fp16, q8_0, q4_k_m]
+tasks: [ukps_qa, ukps_sum]
+out_dir: results

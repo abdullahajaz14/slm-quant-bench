@@ -1,0 +1,11 @@
+# configs/tasks/truthfulqa.yaml
+name: truthfulqa
+hf_dataset: truthfulqa/truthful_qa   # canonical namespaced id (bare id no longer resolves)
+hf_config: multiple_choice
+split: validation
+sample_size: -1        # all 817 questions; choice scoring is cheap
+seed: 42
+template: mc_question
+max_output_tokens: 0   # unused in choice mode
+scorer: truthfulqa_mc
+mode: choice           # runner splits tasks on this flag

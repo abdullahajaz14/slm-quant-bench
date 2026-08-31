@@ -1,0 +1,14 @@
+# configs/models/gemma2-2b.yaml
+name: gemma2-2b
+hf_repo: google/gemma-2-2b-it   # gated: accept licence on HF first
+params_b: 2.6
+gguf:
+  fp16: models/gemma2-2b-fp16.gguf
+  q8_0: models/gemma2-2b-q8_0.gguf
+  q4_k_m: models/gemma2-2b-q4_k_m.gguf
+n_ctx: 4096
+seed: 42
+gpu_layers:
+  device: -1
+  colab: -1
+  colab_fp16: -1

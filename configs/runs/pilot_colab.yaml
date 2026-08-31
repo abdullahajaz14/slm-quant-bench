@@ -1,0 +1,9 @@
+# configs/runs/pilot_colab.yaml -- pilot, Colab side (one model, full ladder)
+run_id: pilot-colab
+env: colab
+backend: cuda
+models: [phi3-mini]
+precisions: [fp16, q8_0, q4_k_m]
+tasks: [cuad, hotpotqa, cnndm, truthfulqa, ukps_qa, ukps_sum]
+limit: 25
+out_dir: results

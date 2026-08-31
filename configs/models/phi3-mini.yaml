@@ -1,0 +1,14 @@
+# configs/models/phi3-mini.yaml
+name: phi3-mini
+hf_repo: microsoft/Phi-3-mini-4k-instruct   # confirm id on HF before download
+params_b: 3.8
+gguf:
+  fp16: models/phi3-mini-fp16.gguf
+  q8_0: models/phi3-mini-q8_0.gguf
+  q4_k_m: models/phi3-mini-q4_k_m.gguf
+n_ctx: 4096
+seed: 42
+gpu_layers:
+  device: -1        # Metal: offload all layers
+  colab: -1
+  colab_fp16: -1    # 7.6 GB fits a T4 fully

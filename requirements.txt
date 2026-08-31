@@ -1,0 +1,41 @@
+# Pinned from the environment that produced the released results.
+# Appendix F of the dissertation reports these versions; they are
+# recorded here so the claim and the repository cannot drift apart.
+#
+# The two environments differ deliberately and the difference is
+# disclosed: the reference environment ran Python 3.12 with datasets
+# 4.0.0, the target device Python 3.13 with datasets 5.0.0. The
+# inference library is identical in both, which is what the
+# cross-backend agreement check requires. The versions below are the
+# target-device environment; the reference environment is a Colab
+# runtime and is reconstructed by notebooks/quality_colab.ipynb.
+#
+# llama.cpp itself is pinned by commit, not by package version:
+#   571d0d540df04f25298d0e159e520d9fc62ed121  (18 July 2026)
+# used to convert and quantise every artefact in both environments.
+
+# --- core: running the evaluation -----------------------------------
+llama_cpp_python==0.3.34
+datasets==5.0.0
+rouge_score==0.1.2
+psutil==7.2.2
+PyYAML==6.0.3
+huggingface_hub==1.24.0
+numpy==2.5.1
+
+# --- tests ----------------------------------------------------------
+pytest==9.1.1
+
+# --- analysis and dashboard extras ----------------------------------
+# Not needed to run the evaluation. scripts/analysis.py and
+# scripts/verbosity_check.py need nothing beyond the core;
+# scripts/figures.py needs matplotlib; dashboard/app.py needs
+# streamlit and pandas.
+matplotlib==3.11.1
+pandas==3.0.3
+streamlit==1.61.1
+
+# --- model conversion (reference environment only) ------------------
+# convert_hf_to_gguf.py needs these; they are not required to run the
+# evaluation against artefacts that already exist:
+#   torch transformers sentencepiece

@@ -1,0 +1,9 @@
+# configs/runs/quality_colab.yaml -- full quality sweep, run on Colab T4
+# One model per session: run_quality.py --models <key> overrides the list.
+run_id: quality-colab
+env: colab
+backend: cuda
+models: [phi3-mini, gemma2-2b, llama32-3b, mistral7b]
+precisions: [fp16, q8_0, q4_k_m]
+tasks: [cuad, hotpotqa, cnndm, truthfulqa]
+out_dir: results

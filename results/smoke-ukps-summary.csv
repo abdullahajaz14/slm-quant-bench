@@ -1,0 +1,6 @@
+model,precision,task,metric,n,mean,ci_lo,ci_hi
+gemma2-2b,q4_k_m,ukps_qa,em,5,0.400000,0.000000,0.800000
+gemma2-2b,q4_k_m,ukps_qa,f1,5,0.783333,0.616667,0.950000
+gemma2-2b,q4_k_m,ukps_sum,rouge1,5,0.492029,0.413747,0.578655
+gemma2-2b,q4_k_m,ukps_sum,rouge2,5,0.203562,0.130673,0.283468
+gemma2-2b,q4_k_m,ukps_sum,rougeL,5,0.309041,0.241527,0.376554

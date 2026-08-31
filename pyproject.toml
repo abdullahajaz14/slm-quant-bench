@@ -1,0 +1,17 @@
+# Packaging scaffold: `pip install -e .` makes slmbench importable
+# everywhere (scripts, notebook, tests) without sys.path tricks.
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slm-quant-bench"
+version = "0.1.0"
+description = "Benchmarking quantisation-compressed small language models for privacy-preserving enterprise deployment on consumer hardware"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

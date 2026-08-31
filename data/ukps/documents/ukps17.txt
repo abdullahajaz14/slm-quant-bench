@@ -1,0 +1,311 @@
+- Department forScience, Innovation& Technology
+
+Online Safety Act: explainer
+
+Updated 24 April 2025
+
+© Crown copyright 2025
+
+This publication is licensed under the terms of the Open Government Licence v3.0 except where otherwise stated. To view this licence, visit nationalarchives.gov.uk/doc/open-government-licence/version/3 or write to the Information Policy Team, The National Archives, Kew, London TW9 4DU, or email: psi@nationalarchives.gov.uk.
+
+Where we have identified any third party copyright information you will need to obtain permission from the copyright holders concerned.
+
+What does the Online Safety Act do?
+
+The Online Safety Act 2023 (the Act) is a new set of laws that protects children and adults online. It puts a range of new duties on social media companies and search services, making them more responsible for their users’ safety on their platforms. The Act will give providers new duties to implement systems and processes to reduce risks their services are used for illegal activity, and to take down illegal content when it does appear.
+
+The strongest protections in the Act have been designed for children. Platforms will be required to prevent children from accessing harmful and age-inappropriate content and provide parents and children with clear and accessible ways to report problems online when they do arise.
+
+The Act will also protect adult users, ensuring that major platforms will need to be more transparent about which kinds of potentially harmful content they allow, and give people more control over the types of content they want to see.
+
+Ofcom is the independent regulator of Online Safety. It will set out steps providers can take to fulfil their safety duties in codes of practice. It has a broad range of powers to assess and enforce providers’ compliance with the framework.
+
+Providers’ safety duties are proportionate to factors including the risk of harm to individuals, and the size and capacity of each provider. This makes sure that while safety measures will need to be put in place across the board, we aren’t requiring small services with limited functionality to take the same actions as the largest corporations. Ofcom is required to take users’ rights into account when setting out steps to take. And providers have simultaneous duties to pay particular regard to users’ rights when fulfilling their safety duties.
+
+Who the Act applies to
+
+The Act’s duties apply to search services and services that allow users to post content online or to interact with each other. This includes a range of websites, apps and other services, including social media services, consumer file cloud storage and sharing sites, video-sharing platforms, online forums, dating services, and online instant messaging services.
+
+The Act applies to services even if the companies providing them are outside the UK should they have links to the UK. This includes if the service has a significant number of UK users, if the UK is a target market, or it is capable of being accessed by UK users and there is a material risk of significant harm to such users.
+
+How the Online Safety Act is being implemented
+
+The Act passed into law on 26 October 2023. Now work is being carried out to bring its protections into effect as quickly as possible. Ofcom published an updated roadmap setting out its implementation plans on 17 October 2024.
+
+Ofcom is leading work to implement the Act’s provisions and are taking a phased approach to bringing duties into effect. The government also needs to make secondary legislation in some areas to enable elements of the framework.
+
+The Act requires Ofcom to develop guidance and codes of practice that will set out how online platforms can meet their duties. Ofcom must carry out public consultations on draft codes of practice before finalising them, and the codes must be laid before Parliament before they take effect. The main phases are set out below:
+
+Duties about illegal content – the illegal content duties are now in effect, and as of 17 March Ofcom can now enforce against the regime. In-scope service providers must have now completed their assessments of the risk of illegal content appearing on their service; the deadline to do so was 16 March. The illegal harms codes of practice were approved by Parliament after being laid on 16 December 2024. On the same day in December, Ofcom published its illegal content risk assessment guidance and its policy statement about protecting people from illegal harms online.
+
+Duties about content harmful to children – Ofcom published its guidance about use of age assurance to prevent children accessing online pornography in January 2025. Platforms that publish their own pornographic content (known as Part 5 services) must take steps immediately to introduce robust age checks that meet Ofcom’s guidance. The corresponding duty in the Act (section 81) came into force on 17 January 2025. Ofcom also published its children’s access assessment guidance in January. In-scope service providers had until 16 April to carry out a children’s access assessment, to determine if their service is likely to be accessed by children.
+
+On 24 April 2025, the protection of children codes of practice were laid in Parliament and Ofcom published guidance on how providers should carry out risk assessments for assessing the risk of harm to children. Services likely to be accessed by children, now have 3 months with a deadline of 24 July 2025, to complete their children’s risk assessment. The child safety regime will be fully in effect by Summer 2025.
+
+Duties for categorised services – some platforms will have to comply with additional requirements to enhance transparency and accountability. The Act created categories of service and thresholds for each category (Category 1, 2A and 2B) were laid via secondary legislation on 16 December 2024.
+
+Once the regulations to set the thresholds have been laid and approved by Parliament, Ofcom will publish a register setting out which services fall into which categories and will publish further codes of practice for consultation. Ofcom expects to publish the register of categorised services in Summer 2025 and consult on the codes of practice and, where relevant, guidance for the additional duties on categorised services by early 2026.
+
+The new offences that the Act has introduced
+
+The criminal offences introduced by the Act came into effect on 31 January 2024. These offences cover:
+
+- encouraging or assisting serious self-harm
+
+- cyberflashing
+
+- sending false information intended to cause non-trivial harm
+
+- threatening communications
+
+- intimate image abuse
+
+- epilepsy trolling
+
+These new offences apply directly to the individuals sending them, and convictions have already been made under the cyberflashing and threatening communications offences.
+
+Types of content the Act tackles
+
+Illegal content
+
+The Act requires all companies to take robust action against illegal content and activity. Platforms are now required to implement measures to reduce the risks their services are used for illegal offending. They also need to put in place systems for removing illegal content when it does appear. Search services also have new duties to take steps to reduce the risks users encounter illegal content via their services.
+
+The Act sets out a list of priority offences. These reflect the most serious and prevalent illegal content and activity, against which companies must take proactive measures.
+
+Platforms must also remove any other illegal content where there is an individual victim (actual or intended), where it is flagged to them by users, or where they become aware of it through any other means.
+
+The illegal content duties are not just about removing existing illegal content; they are also about stopping it from appearing at all. Platforms need to think about how they design their sites to reduce the likelihood of them being used for criminal activity in the first place.
+
+The kinds of illegal content and activity that platforms need to protect users from are set out in the Act, and this includes content relating to:
+
+- child sexual abuse
+
+- controlling or coercive behaviour
+
+- extreme sexual violence
+
+- extreme pornography
+
+- fraud
+
+- racially or religiously aggravated public order offences
+
+- inciting violence
+
+- illegal immigration and people smuggling
+
+- promoting or facilitating suicide
+
+- intimate image abuse
+
+- selling illegal drugs or weapons
+
+- sexual exploitation
+
+- terrorism
+
+Content that is harmful to children
+
+Protecting children is at the heart of the Online Safety Act. Although some content is not illegal, it could be harmful or age-inappropriate for children and platforms need to protect children from it.
+
+Companies with websites in-scope of the Act that are likely to be accessed by children need to take steps to protect children from harmful content and behaviour.
+
+The categories of harmful content that platforms need to protect children from encountering are set out in the Act. Children must be prevented from accessing Primary Priority Content, and should be given age-appropriate access to Priority Content. The types of content which fall into these categories are set out below.
+
+Primary Priority Content
+
+- pornography
+
+- content that encourages, promotes, or provides instructions for either: self-harm
+
+- eating disorders or
+
+- suicide
+
+Priority Content
+
+- bullying
+
+- abusive or hateful content
+
+- content which depicts or encourages serious violence or injury
+
+- content which encourages dangerous stunts and challenges; and
+
+- content which encourages the ingestion, inhalation or exposure to harmful substances.
+
+Age-appropriate experiences for children online
+
+The Act requires social media companies to enforce their age limits consistently and protect their child users.
+
+Services must assess any risks to children from using their platforms and set appropriate age restrictions, ensuring that child users have age-appropriate experiences and are shielded from harmful content. Service providers who use measures to prevent access to their service for children under a certain age must specify in their terms of service, what measures are being used to enforce this age limit and enforce this consistently.
+
+Adults will have more control over the content they see
+
+Large user-to-user services, known as Category 1 services, will be required to offer adult users tools which, if they choose to use, will give them greater control over the kinds of content they see and who they engage with online.
+
+Adult users of such services will be able to verify their identity and access tools which enable them to reduce the likelihood that they see content from non-verified users and prevent non-verified users from interacting with their content. This will help stop anonymous trolls from contacting them.
+
+Following the publication of guidance by Ofcom, Category 1 services will also need to proactively offer adult users optional tools, at the first opportunity, to help them reduce the likelihood that they will encounter certain types of legal content. These categories of content are set out in the Act and include content that does not meet a criminal threshold but encourages, promotes or provides instructions for suicide, self-harm or eating disorders. These tools also apply to abusive or hate content including where such content is racist, antisemitic, homophobic, or misogynist. The tools must be effective and easy to access.
+
+The Act already protects children from seeing this content.
+
+The Act will tackle suicide and self-harm content
+
+Any site that allows users to share content or interact with each other is in scope of the Online Safety Act. These laws also require sites to rapidly remove illegal suicide and self-harm content and proactively protect users from content that is illegal under the Suicide Act 1961. The Act has also introduced a new criminal offence for intentionally encouraging or assisting serious self-harm.
+
+Services that are likely to be accessed by children must prevent children of all ages from encountering legal content that encourages, promotes or provides instruction for suicide and self-harm.
+
+Following a letter from the Secretary of State, in September 2024, Ofcom set out their approach to regulating small but risky platforms. Ofcom have established a dedicated small but risky supervision taskforce to monitor such services, and move to rapid enforcement where there is evidence of non-compliance with their duties to tackle illegal content and, where relevant, content that is harmful to children.
+
+The Act also requires large services (Category 1 services) to uphold their terms of service where they say they will remove or restrict content or suspend users. If a service says they prohibit certain kinds of legal suicide or self-harm content the Act requires them to enforce these terms consistently and transparently. These companies must also have effective reporting and redress mechanisms in place enabling users to raise concerns about companies’ enforcement of their terms of service, if users feel that companies are not fulfilling their duties.
+
+How the Act will be enforced
+
+Ofcom is now the regulator of online safety and must make sure that platforms are protecting their users. Once the new duties are in effect, following Ofcom’s publication of final codes and guidance, platforms will have to show they have processes in place to meet the requirements set out by the Act. Ofcom will monitor how effective those processes are at protecting internet users from harm. Ofcom will have powers to take action against companies which do not follow their new duties.
+
+Companies can be fined up to £18 million or 10 percent of their qualifying worldwide revenue, whichever is greater. Criminal action can be taken against senior managers who fail to ensure companies follow information requests from Ofcom. Ofcom will also be able to hold companies and senior managers (where they are at fault) criminally liable if the provider fails to comply with Ofcom’s enforcement notices in relation to specific child safety duties or to for child sexual abuse and exploitation on their service.
+
+In the most extreme cases, with the agreement of the courts, Ofcom will be able to require payment providers, advertisers and internet service providers to stop working with a site, preventing it from generating money or being accessed from the UK.
+
+How the Act affects companies that are not based in the UK
+
+The Act gives Ofcom the powers they need to take appropriate action against all companies in scope, no matter where they are based, where services have relevant links with the UK. This means services with a significant number of UK users or where UK users are a target market, as well as other services which have in-scope content that presents a risk of significant harm to people in the UK.
+
+How the Act will tackle harmful algorithms
+
+The Act requires providers to specifically consider how algorithms could impact users’ exposure to illegal content – and children’s exposure content that is harmful to children – as part of their risk assessments.
+
+Providers will then need to take steps to mitigate and effectively manage any identified risks. This includes considering their platform’s design, functionalities, algorithms, and any other features likely to meet the illegal content and child safety duties.
+
+The law also makes it clear that harm can arise from the way content is disseminated, such as when an algorithm repeatedly pushes content to a child in large volumes over a short space of time.
+
+Categorised services will be required to publish annual transparency reports containing online safety related information, such as information about the algorithms they use and their effect on users’ experience, including children.
+
+How the Act protects women and girls
+
+Much of the most harmful illegal online content disproportionately affects women and girls, and the Act requires platforms to proactively tackle this. Illegal content includes harassment, stalking, controlling or coercive behaviour, extreme pornography, and intimate image abuse.
+
+All user-to-user and search services have duties to put in place systems and processes to remove this content when it is flagged to them. The measures companies must take to remove illegal content will be set out in Ofcom’s codes of practice.
+
+When developing these codes, Ofcom is required to consult with the Victim’s Commissioner and Domestic Abuse Commissioner to guarantee that the voices and views of women, girls and victims are reflected.
+
+The Act also requires Ofcom to produce guidance that summarises in one clear place the measures that can be taken to tackle the abuse that women and girls disproportionately face online. This guidance will ensure it is easy for platforms to implement holistic and effective protections for women and girls across their various duties. On 25 February, Ofcom published their draft guidance for consultation. This guidance will be subject to a 12-week consultation with finalised guidance published by the end of the year. All companies in scope of the Act should refer to this guidance when implementing protections for users.
+
+How the Act tackles Misinformation and Disinformation
+
+The Online Safety Act takes a proportionate approach to mis- and disinformation by focusing on addressing the greatest risks of harm to users, whilst protecting freedom of expression.
+
+Mis- and disinformation will be captured by the Online Safety Act where it is illegal or harmful to children. Services will be required to take steps to remove illegal disinformation content if they become aware of it on their services. This includes the removal of illegal, state-sponsored disinformation through the Foreign Interference Offence, forcing companies to take action against a range of state-sponsored disinformation and state-linked interference online. Companies must also assess whether their service is likely to be accessed by children and, if so deliver additional protections for them. This includes protections against in-scope mis- and disinformation.
+
+Category 1 services will also need to remove certain types of mis- and disinformation if they are prohibited in their terms of services.
+
+The Online Safety Act also requires Ofcom to establish an advisory committee on disinformation and misinformation to build cross-sector understanding of mis- and disinformation. The advisory committee has now appointed a Chair and plans to have its first meeting in April 2025.
+
+Independent Review of Pornography Regulation, Legislation and Enforcement
+
+The past 2 decades have seen a dramatic change in the way we consume media and interact with content online. We need to ensure pornography regulation and legislation reflects this change.
+
+Separate to the Online Safety Act, the Independent Pornography Review was announced to assess the regulation, legislation and enforcement of online and offline pornographic content.
+
+Since December 2023, the Review was led by the Independent Lead Reviewer, Baroness Gabby Bertin. The Independent Pornography Review’s final report and its recommendations to government were published on 27 February 2025. The findings of the Review continue to be assessed by the government.
+
+Background information: useful websites
+
+Legislation
+
+- The Online Safety Act on legislation.gov.uk
+
+- Commencement regulations No.1
+
+- Commencement regulations No.2
+
+- Commencement regulations No.3
+
+- Commencement regulations No. 4
+
+- The Online Safety (List of Overseas Regulators) Regulations 2024
+
+- The Public Interest Disclosure (Prescribed Persons) (Amendment) Order 2023
+
+- Online Safety Act 2023 (Pre-existing Part 4B Services Assessment Start Day) Regulations 2024
+
+- The Communications Act 2003 (Disclosure of Information) Order 2024)
+
+- The Online Safety Act 2023 (Priority Offences) (Amendment) Regulations 2024
+
+- The Online Safety Act 2023 (Category 1, Category 2A and Category 2B Threshold Conditions) Regulations 2025
+
+Notices
+
+- Royal Assent Press Notice - October 2023
+
+- Criminal Offences Circular - January 2024
+
+- New Offences Press Notice - January 2024
+
+- Intimate Image Abuse Press Notice - September 2024
+
+- Online Safety Statement of Strategic Priorities Press Notice – November 2024
+
+- Draft Statement of Strategic Priorities for Online Safety – November 2024
+
+Guidance and letters (including Ofcom advice and DSIT Secretary of State letters)
+
+- Ofcom’s approach to implementing the Online Safety Act (implementation roadmap) - October 2024
+
+- Ofcom policy statement: protecting people from illegal harms online - December 2024
+
+- Ofcom policy statement: Age Assurance and Children’s Access – January 2025
+
+- Ofcom: how the Online Safety Act will protect women and girls - November 2023
+
+- Open letter by Ofcom to UK online service providers regarding Generative AI and chatbots - November 2024
+
+- Letter from the DSIT Secretary of State to Ofcom about categorisation of services - March 2024
+
+- Ofcom’s letter on their approach to tackling small but risky services – September 2024
+
+- Letter from the DSIT Secretary of State to Ofcom about ‘small but risky’ online services - September 2024
+
+- Ofcom’s letter on their approach to tackling small but risky services – September 2024
+
+- Letter from the DSIT Secretary of State to Ofcom about tackling illegal content and the implementation of the Online Safety Act - October 2024
+
+- Letter from the DSIT Secretary of State to Ofcom about categorisation of services - March 2024
+
+- Ofcom advice to the Secretary of State on categorisation - March 2024
+
+- Ofcom new rules for online services; what you need to know - October 2024
+
+- Open letter by Ofcom to UK online service providers - August 2024
+
+- Repeal of the Video-Sharing Platform regime: what you need to know - September 2024
+
+Consultations and Calls for Evidence (including relevant Ofcom consultations)
+
+- Ofcom consultation: a safer life online for women and girls - February 2025
+
+- Government consultation: super-complaints - November 2023 (closed)
+
+- Super-complaints: eligible entity criteria and procedural requirements - April 2024
+
+- Ofcom consultation: protecting people from illegal harms online - November 2023 (closed)
+
+- Ofcom: how the Online Safety Act will protect women and girls - November 2023
+
+- Ofcom consultation: guidance for service providers publishing pornographic content - December 2023 (closed)
+
+- Letter from the DSIT Secretary of State to Ofcom about categorisation of services - March 2024
+
+- Ofcom advice to the Secretary of State on categorisation - March 2024
+
+- Ofcom call for evidence: third phase of online safety regulation - March 2024 (closed)
+
+- Ofcom consultation: protecting children from harms online - May 2024 (closed)
+
+- Ofcom consultation: draft transparency reporting guidance - July 2024 (closed)
+
+- Ofcom consultation: online safety information guidance - July 2024 (closed)
+
+- Ofcom consultation: Illegal harms further consultation: torture and animal cruelty - August 2024 (closed)

@@ -1,0 +1,36 @@
+MIT License
+
+Copyright (c) 2026 Abdullah Abdullah
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+NOTE ON SCOPE
+
+This MIT licence covers the framework CODE in this repository only.
+
+  - Evaluation datasets (CUAD, HotpotQA, CNN/DailyMail, TruthfulQA) are
+    used under their own respective licences, recorded in the README.
+  - Model weights are used under their own licences (MIT, Apache 2.0,
+    Gemma terms, Llama community licence), recorded in the README.
+  - The curated UK public-sector corpus in data/ukps/documents/ consists
+    of GOV.UK and NHS material published under the Open Government
+    Licence v3.0; per-document sources and licence records are in
+    data/ukps/documents/INDEX.csv.

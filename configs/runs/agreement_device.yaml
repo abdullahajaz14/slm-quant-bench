@@ -1,0 +1,19 @@
+# configs/runs/agreement_device.yaml -- device side of the agreement check
+# FP16 absent by necessity: it cannot load on the 8 GB device; the check
+# validates the quantised levels, which every device-hosted config uses.
+#
+# Model family changed from phi3-mini to gemma2-2b after the pilot. The
+# check needs one family that runs at BOTH quantised levels on the
+# device, so that the cross-backend comparison rests on two precisions
+# rather than one. The pilot established that phi3-mini at q8_0 (3.8 GB)
+# cannot run on this 8 GB endpoint, while gemma2-2b runs at q8_0
+# (2.6 GB) and q4_k_m alike. Chapter 3 specifies "one model family"
+# without naming it, so this is a selection within the stated protocol.
+run_id: agreement-device
+env: device
+backend: metal
+models: [gemma2-2b]
+precisions: [q8_0, q4_k_m]
+tasks: [cuad, hotpotqa, cnndm, truthfulqa]
+limit: 50
+out_dir: results

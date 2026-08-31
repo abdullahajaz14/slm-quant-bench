@@ -1,0 +1,842 @@
+{
+  "counts": {
+    "device_only": 0,
+    "colab_only": 27008,
+    "joined": 400
+  },
+  "per_task": {
+    "cnndm": {
+      "n": 100,
+      "exact_output_rate": 0.22,
+      "metrics": {
+        "rouge1": {
+          "mean_abs_delta": 0.02485635608844837,
+          "max_abs_delta": 0.10267471958584984,
+          "bias": -0.004058077972063203,
+          "bias_lo": -0.010970483319113052,
+          "bias_hi": 0.003342530680100304,
+          "bias_floor": 0.010970483319113052,
+          "biased": false
+        },
+        "rouge2": {
+          "mean_abs_delta": 0.014996303839150151,
+          "max_abs_delta": 0.10791589363017934,
+          "bias": -0.00213977101271588,
+          "bias_lo": -0.007075279140414071,
+          "bias_hi": 0.0028822647822996216,
+          "bias_floor": 0.007075279140414071,
+          "biased": false
+        },
+        "rougeL": {
+          "mean_abs_delta": 0.019703347136236324,
+          "max_abs_delta": 0.10467795251928275,
+          "bias": -0.0015531535136595305,
+          "bias_lo": -0.008010064774748332,
+          "bias_hi": 0.004695096698139445,
+          "bias_floor": 0.008010064774748332,
+          "biased": false
+        }
+      }
+    },
+    "cuad": {
+      "n": 100,
+      "exact_output_rate": 0.82,
+      "metrics": {
+        "em": {
+          "mean_abs_delta": 0.02,
+          "max_abs_delta": 1.0,
+          "bias": 0.0,
+          "bias_lo": -0.03,
+          "bias_hi": 0.03,
+          "bias_floor": 0.03,
+          "biased": false
+        },
+        "f1": {
+          "mean_abs_delta": 0.026981531101825763,
+          "max_abs_delta": 0.7391304347826086,
+          "bias": -0.023671180700167733,
+          "bias_lo": -0.04818045162391891,
+          "bias_hi": -0.003938969796682123,
+          "bias_floor": 0.04818045162391891,
+          "biased": true
+        }
+      }
+    },
+    "hotpotqa": {
+      "n": 100,
+      "exact_output_rate": 0.98,
+      "metrics": {
+        "em": {
+          "mean_abs_delta": 0.0,
+          "max_abs_delta": 0.0,
+          "bias": 0.0,
+          "bias_lo": 0.0,
+          "bias_hi": 0.0,
+          "bias_floor": 0.0,
+          "biased": false
+        },
+        "f1": {
+          "mean_abs_delta": 0.0,
+          "max_abs_delta": 0.0,
+          "bias": 0.0,
+          "bias_lo": 0.0,
+          "bias_hi": 0.0,
+          "bias_floor": 0.0,
+          "biased": false
+        }
+      }
+    },
+    "truthfulqa_mc1": {
+      "n": 50,
+      "exact_output_rate": 0.98,
+      "metrics": {
+        "mc1": {
+          "mean_abs_delta": 0.0,
+          "max_abs_delta": 0.0,
+          "bias": 0.0,
+          "bias_lo": 0.0,
+          "bias_hi": 0.0,
+          "bias_floor": 0.0,
+          "biased": false
+        }
+      }
+    },
+    "truthfulqa_mc2": {
+      "n": 50,
+      "exact_output_rate": 0.98,
+      "metrics": {
+        "mc2": {
+          "mean_abs_delta": 0.008571062120730211,
+          "max_abs_delta": 0.13552601711532952,
+          "bias": 0.002901672661477581,
+          "bias_lo": -0.0030495477778349476,
+          "bias_hi": 0.009611101919692914,
+          "bias_floor": 0.009611101919692914,
+          "biased": false
+        }
+      }
+    }
+  },
+  "resolvability": [
+    {
+      "model": "gemma2-2b",
+      "task": "cnndm",
+      "metric": "rouge1",
+      "precision": "q4_k_m",
+      "effect": -0.009705,
+      "backend_floor": 0.010970483319113052,
+      "distinguishable": true,
+      "resolvable": false
+    },
+    {
+      "model": "gemma2-2b",
+      "task": "cnndm",
+      "metric": "rouge1",
+      "precision": "q8_0",
+      "effect": 0.000957,
+      "backend_floor": 0.010970483319113052,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "gemma2-2b",
+      "task": "cnndm",
+      "metric": "rouge2",
+      "precision": "q4_k_m",
+      "effect": -0.007388,
+      "backend_floor": 0.007075279140414071,
+      "distinguishable": true,
+      "resolvable": true
+    },
+    {
+      "model": "gemma2-2b",
+      "task": "cnndm",
+      "metric": "rouge2",
+      "precision": "q8_0",
+      "effect": 0.003081,
+      "backend_floor": 0.007075279140414071,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "gemma2-2b",
+      "task": "cnndm",
+      "metric": "rougeL",
+      "precision": "q4_k_m",
+      "effect": -0.006262,
+      "backend_floor": 0.008010064774748332,
+      "distinguishable": true,
+      "resolvable": false
+    },
+    {
+      "model": "gemma2-2b",
+      "task": "cnndm",
+      "metric": "rougeL",
+      "precision": "q8_0",
+      "effect": 0.001688,
+      "backend_floor": 0.008010064774748332,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "gemma2-2b",
+      "task": "cuad",
+      "metric": "em",
+      "precision": "q4_k_m",
+      "effect": -0.01,
+      "backend_floor": 0.03,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "gemma2-2b",
+      "task": "cuad",
+      "metric": "em",
+      "precision": "q8_0",
+      "effect": 0.0,
+      "backend_floor": 0.03,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "gemma2-2b",
+      "task": "cuad",
+      "metric": "f1",
+      "precision": "q4_k_m",
+      "effect": -0.017257,
+      "backend_floor": 0.04818045162391891,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "gemma2-2b",
+      "task": "cuad",
+      "metric": "f1",
+      "precision": "q8_0",
+      "effect": 0.023779,
+      "backend_floor": 0.04818045162391891,
+      "distinguishable": true,
+      "resolvable": false
+    },
+    {
+      "model": "gemma2-2b",
+      "task": "hotpotqa",
+      "metric": "em",
+      "precision": "q4_k_m",
+      "effect": -0.01,
+      "backend_floor": 0.0,
+      "distinguishable": false,
+      "resolvable": true
+    },
+    {
+      "model": "gemma2-2b",
+      "task": "hotpotqa",
+      "metric": "em",
+      "precision": "q8_0",
+      "effect": 0.0,
+      "backend_floor": 0.0,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "gemma2-2b",
+      "task": "hotpotqa",
+      "metric": "f1",
+      "precision": "q4_k_m",
+      "effect": -0.01696,
+      "backend_floor": 0.0,
+      "distinguishable": false,
+      "resolvable": true
+    },
+    {
+      "model": "gemma2-2b",
+      "task": "hotpotqa",
+      "metric": "f1",
+      "precision": "q8_0",
+      "effect": 0.00237,
+      "backend_floor": 0.0,
+      "distinguishable": false,
+      "resolvable": true
+    },
+    {
+      "model": "gemma2-2b",
+      "task": "truthfulqa_mc1",
+      "metric": "mc1",
+      "precision": "q4_k_m",
+      "effect": 0.001224,
+      "backend_floor": 0.0,
+      "distinguishable": false,
+      "resolvable": true
+    },
+    {
+      "model": "gemma2-2b",
+      "task": "truthfulqa_mc1",
+      "metric": "mc1",
+      "precision": "q8_0",
+      "effect": 0.002448,
+      "backend_floor": 0.0,
+      "distinguishable": false,
+      "resolvable": true
+    },
+    {
+      "model": "gemma2-2b",
+      "task": "truthfulqa_mc2",
+      "metric": "mc2",
+      "precision": "q4_k_m",
+      "effect": -0.001606,
+      "backend_floor": 0.009611101919692914,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "gemma2-2b",
+      "task": "truthfulqa_mc2",
+      "metric": "mc2",
+      "precision": "q8_0",
+      "effect": 0.002302,
+      "backend_floor": 0.009611101919692914,
+      "distinguishable": true,
+      "resolvable": false
+    },
+    {
+      "model": "llama32-3b",
+      "task": "cnndm",
+      "metric": "rouge1",
+      "precision": "q4_k_m",
+      "effect": -0.005573,
+      "backend_floor": 0.010970483319113052,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "llama32-3b",
+      "task": "cnndm",
+      "metric": "rouge1",
+      "precision": "q8_0",
+      "effect": 0.00142,
+      "backend_floor": 0.010970483319113052,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "llama32-3b",
+      "task": "cnndm",
+      "metric": "rouge2",
+      "precision": "q4_k_m",
+      "effect": -0.004727,
+      "backend_floor": 0.007075279140414071,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "llama32-3b",
+      "task": "cnndm",
+      "metric": "rouge2",
+      "precision": "q8_0",
+      "effect": -0.000935,
+      "backend_floor": 0.007075279140414071,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "llama32-3b",
+      "task": "cnndm",
+      "metric": "rougeL",
+      "precision": "q4_k_m",
+      "effect": -0.000264,
+      "backend_floor": 0.008010064774748332,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "llama32-3b",
+      "task": "cnndm",
+      "metric": "rougeL",
+      "precision": "q8_0",
+      "effect": 0.000642,
+      "backend_floor": 0.008010064774748332,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "llama32-3b",
+      "task": "cuad",
+      "metric": "em",
+      "precision": "q4_k_m",
+      "effect": 0.0,
+      "backend_floor": 0.03,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "llama32-3b",
+      "task": "cuad",
+      "metric": "em",
+      "precision": "q8_0",
+      "effect": -0.015,
+      "backend_floor": 0.03,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "llama32-3b",
+      "task": "cuad",
+      "metric": "f1",
+      "precision": "q4_k_m",
+      "effect": -0.015925,
+      "backend_floor": 0.04818045162391891,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "llama32-3b",
+      "task": "cuad",
+      "metric": "f1",
+      "precision": "q8_0",
+      "effect": -0.013361,
+      "backend_floor": 0.04818045162391891,
+      "distinguishable": true,
+      "resolvable": false
+    },
+    {
+      "model": "llama32-3b",
+      "task": "hotpotqa",
+      "metric": "em",
+      "precision": "q4_k_m",
+      "effect": 0.03,
+      "backend_floor": 0.0,
+      "distinguishable": false,
+      "resolvable": true
+    },
+    {
+      "model": "llama32-3b",
+      "task": "hotpotqa",
+      "metric": "em",
+      "precision": "q8_0",
+      "effect": 0.0,
+      "backend_floor": 0.0,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "llama32-3b",
+      "task": "hotpotqa",
+      "metric": "f1",
+      "precision": "q4_k_m",
+      "effect": 0.01489,
+      "backend_floor": 0.0,
+      "distinguishable": false,
+      "resolvable": true
+    },
+    {
+      "model": "llama32-3b",
+      "task": "hotpotqa",
+      "metric": "f1",
+      "precision": "q8_0",
+      "effect": -0.00182,
+      "backend_floor": 0.0,
+      "distinguishable": false,
+      "resolvable": true
+    },
+    {
+      "model": "llama32-3b",
+      "task": "truthfulqa_mc1",
+      "metric": "mc1",
+      "precision": "q4_k_m",
+      "effect": 0.007344,
+      "backend_floor": 0.0,
+      "distinguishable": false,
+      "resolvable": true
+    },
+    {
+      "model": "llama32-3b",
+      "task": "truthfulqa_mc1",
+      "metric": "mc1",
+      "precision": "q8_0",
+      "effect": 0.0,
+      "backend_floor": 0.0,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "llama32-3b",
+      "task": "truthfulqa_mc2",
+      "metric": "mc2",
+      "precision": "q4_k_m",
+      "effect": 0.010851,
+      "backend_floor": 0.009611101919692914,
+      "distinguishable": true,
+      "resolvable": true
+    },
+    {
+      "model": "llama32-3b",
+      "task": "truthfulqa_mc2",
+      "metric": "mc2",
+      "precision": "q8_0",
+      "effect": 0.001093,
+      "backend_floor": 0.009611101919692914,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "mistral7b",
+      "task": "cnndm",
+      "metric": "rouge1",
+      "precision": "q4_k_m",
+      "effect": 0.008717,
+      "backend_floor": 0.010970483319113052,
+      "distinguishable": true,
+      "resolvable": false
+    },
+    {
+      "model": "mistral7b",
+      "task": "cnndm",
+      "metric": "rouge1",
+      "precision": "q8_0",
+      "effect": -0.000468,
+      "backend_floor": 0.010970483319113052,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "mistral7b",
+      "task": "cnndm",
+      "metric": "rouge2",
+      "precision": "q4_k_m",
+      "effect": 0.00715,
+      "backend_floor": 0.007075279140414071,
+      "distinguishable": true,
+      "resolvable": true
+    },
+    {
+      "model": "mistral7b",
+      "task": "cnndm",
+      "metric": "rouge2",
+      "precision": "q8_0",
+      "effect": 0.000275,
+      "backend_floor": 0.007075279140414071,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "mistral7b",
+      "task": "cnndm",
+      "metric": "rougeL",
+      "precision": "q4_k_m",
+      "effect": 0.00812,
+      "backend_floor": 0.008010064774748332,
+      "distinguishable": true,
+      "resolvable": true
+    },
+    {
+      "model": "mistral7b",
+      "task": "cnndm",
+      "metric": "rougeL",
+      "precision": "q8_0",
+      "effect": -0.000382,
+      "backend_floor": 0.008010064774748332,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "mistral7b",
+      "task": "cuad",
+      "metric": "em",
+      "precision": "q4_k_m",
+      "effect": -0.01,
+      "backend_floor": 0.03,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "mistral7b",
+      "task": "cuad",
+      "metric": "em",
+      "precision": "q8_0",
+      "effect": 0.0,
+      "backend_floor": 0.03,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "mistral7b",
+      "task": "cuad",
+      "metric": "f1",
+      "precision": "q4_k_m",
+      "effect": -0.033412,
+      "backend_floor": 0.04818045162391891,
+      "distinguishable": true,
+      "resolvable": false
+    },
+    {
+      "model": "mistral7b",
+      "task": "cuad",
+      "metric": "f1",
+      "precision": "q8_0",
+      "effect": -0.001928,
+      "backend_floor": 0.04818045162391891,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "mistral7b",
+      "task": "hotpotqa",
+      "metric": "em",
+      "precision": "q4_k_m",
+      "effect": 0.006667,
+      "backend_floor": 0.0,
+      "distinguishable": false,
+      "resolvable": true
+    },
+    {
+      "model": "mistral7b",
+      "task": "hotpotqa",
+      "metric": "em",
+      "precision": "q8_0",
+      "effect": -0.006667,
+      "backend_floor": 0.0,
+      "distinguishable": false,
+      "resolvable": true
+    },
+    {
+      "model": "mistral7b",
+      "task": "hotpotqa",
+      "metric": "f1",
+      "precision": "q4_k_m",
+      "effect": 0.014318,
+      "backend_floor": 0.0,
+      "distinguishable": false,
+      "resolvable": true
+    },
+    {
+      "model": "mistral7b",
+      "task": "hotpotqa",
+      "metric": "f1",
+      "precision": "q8_0",
+      "effect": -0.002087,
+      "backend_floor": 0.0,
+      "distinguishable": false,
+      "resolvable": true
+    },
+    {
+      "model": "mistral7b",
+      "task": "truthfulqa_mc1",
+      "metric": "mc1",
+      "precision": "q4_k_m",
+      "effect": -0.011016,
+      "backend_floor": 0.0,
+      "distinguishable": false,
+      "resolvable": true
+    },
+    {
+      "model": "mistral7b",
+      "task": "truthfulqa_mc1",
+      "metric": "mc1",
+      "precision": "q8_0",
+      "effect": -0.007344,
+      "backend_floor": 0.0,
+      "distinguishable": true,
+      "resolvable": true
+    },
+    {
+      "model": "mistral7b",
+      "task": "truthfulqa_mc2",
+      "metric": "mc2",
+      "precision": "q4_k_m",
+      "effect": 0.004444,
+      "backend_floor": 0.009611101919692914,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "mistral7b",
+      "task": "truthfulqa_mc2",
+      "metric": "mc2",
+      "precision": "q8_0",
+      "effect": -0.004272,
+      "backend_floor": 0.009611101919692914,
+      "distinguishable": true,
+      "resolvable": false
+    },
+    {
+      "model": "phi3-mini",
+      "task": "cnndm",
+      "metric": "rouge1",
+      "precision": "q4_k_m",
+      "effect": -0.006283,
+      "backend_floor": 0.010970483319113052,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "phi3-mini",
+      "task": "cnndm",
+      "metric": "rouge1",
+      "precision": "q8_0",
+      "effect": 0.002126,
+      "backend_floor": 0.010970483319113052,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "phi3-mini",
+      "task": "cnndm",
+      "metric": "rouge2",
+      "precision": "q4_k_m",
+      "effect": -0.006427,
+      "backend_floor": 0.007075279140414071,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "phi3-mini",
+      "task": "cnndm",
+      "metric": "rouge2",
+      "precision": "q8_0",
+      "effect": -0.00206,
+      "backend_floor": 0.007075279140414071,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "phi3-mini",
+      "task": "cnndm",
+      "metric": "rougeL",
+      "precision": "q4_k_m",
+      "effect": -0.010057,
+      "backend_floor": 0.008010064774748332,
+      "distinguishable": true,
+      "resolvable": true
+    },
+    {
+      "model": "phi3-mini",
+      "task": "cnndm",
+      "metric": "rougeL",
+      "precision": "q8_0",
+      "effect": -0.002396,
+      "backend_floor": 0.008010064774748332,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "phi3-mini",
+      "task": "cuad",
+      "metric": "em",
+      "precision": "q4_k_m",
+      "effect": -0.005,
+      "backend_floor": 0.03,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "phi3-mini",
+      "task": "cuad",
+      "metric": "em",
+      "precision": "q8_0",
+      "effect": 0.0,
+      "backend_floor": 0.03,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "phi3-mini",
+      "task": "cuad",
+      "metric": "f1",
+      "precision": "q4_k_m",
+      "effect": -0.030402,
+      "backend_floor": 0.04818045162391891,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "phi3-mini",
+      "task": "cuad",
+      "metric": "f1",
+      "precision": "q8_0",
+      "effect": -0.001366,
+      "backend_floor": 0.04818045162391891,
+      "distinguishable": false,
+      "resolvable": false
+    },
+    {
+      "model": "phi3-mini",
+      "task": "hotpotqa",
+      "metric": "em",
+      "precision": "q4_k_m",
+      "effect": -0.023333,
+      "backend_floor": 0.0,
+      "distinguishable": false,
+      "resolvable": true
+    },
+    {
+      "model": "phi3-mini",
+      "task": "hotpotqa",
+      "metric": "em",
+      "precision": "q8_0",
+      "effect": 0.006667,
+      "backend_floor": 0.0,
+      "distinguishable": false,
+      "resolvable": true
+    },
+    {
+      "model": "phi3-mini",
+      "task": "hotpotqa",
+      "metric": "f1",
+      "precision": "q4_k_m",
+      "effect": -0.0251,
+      "backend_floor": 0.0,
+      "distinguishable": false,
+      "resolvable": true
+    },
+    {
+      "model": "phi3-mini",
+      "task": "hotpotqa",
+      "metric": "f1",
+      "precision": "q8_0",
+      "effect": 0.007425,
+      "backend_floor": 0.0,
+      "distinguishable": false,
+      "resolvable": true
+    },
+    {
+      "model": "phi3-mini",
+      "task": "truthfulqa_mc1",
+      "metric": "mc1",
+      "precision": "q4_k_m",
+      "effect": -0.009792,
+      "backend_floor": 0.0,
+      "distinguishable": false,
+      "resolvable": true
+    },
+    {
+      "model": "phi3-mini",
+      "task": "truthfulqa_mc1",
+      "metric": "mc1",
+      "precision": "q8_0",
+      "effect": -0.007344,
+      "backend_floor": 0.0,
+      "distinguishable": true,
+      "resolvable": true
+    },
+    {
+      "model": "phi3-mini",
+      "task": "truthfulqa_mc2",
+      "metric": "mc2",
+      "precision": "q4_k_m",
+      "effect": -0.015344,
+      "backend_floor": 0.009611101919692914,
+      "distinguishable": true,
+      "resolvable": true
+    },
+    {
+      "model": "phi3-mini",
+      "task": "truthfulqa_mc2",
+      "metric": "mc2",
+      "precision": "q8_0",
+      "effect": -0.000802,
+      "backend_floor": 0.009611101919692914,
+      "distinguishable": false,
+      "resolvable": false
+    }
+  ]
+}
